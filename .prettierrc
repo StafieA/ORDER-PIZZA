@@ -1,4 +1,9 @@
 {
+  "plugins": ["prettier-plugin-tailwindcss"],
   "singleQuote": true,
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "printWidth": 50,
+  "trailingComma": "es5",
+  "arrowParens": "always",
+  "tailwindConfig": "./tailwind.config.js",
+  "htmlWhitespaceSensitivity": "ignore"
 }

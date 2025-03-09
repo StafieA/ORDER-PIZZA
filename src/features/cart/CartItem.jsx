@@ -1,5 +1,6 @@
 function CartItem({ item }) {
-  const { pizzaId, name, quantity, totalPrice } = item;
+  const { pizzaId, name, quantity, totalPrice } =
+    item;
 
   return (
     <li>
