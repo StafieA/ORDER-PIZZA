@@ -56,6 +56,7 @@ function CreateOrder() {
             type="text"
             name="customer"
             required
+            className='input'
           />
         </div>
 
@@ -66,7 +67,7 @@ function CreateOrder() {
               type="tel"
               name="phone"
               required
-              className=''
+              className='input'
             />
           </div>
           {formErrors?.phone && (
@@ -81,9 +82,7 @@ function CreateOrder() {
               type="text"
               name="address"
               required
-              className='rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300
-                         focus:outline-none focus:ring focus:ring-yellow-400 
-                         w-full md:px-6 md:py-3'
+              className='input'
             />
           </div>
         </div>
