@@ -66,6 +66,7 @@ function CreateOrder() {
               type="tel"
               name="phone"
               required
+              className=''
             />
           </div>
           {formErrors?.phone && (
@@ -80,6 +81,9 @@ function CreateOrder() {
               type="text"
               name="address"
               required
+              className='rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300
+                         focus:outline-none focus:ring focus:ring-yellow-400 
+                         w-full md:px-6 md:py-3'
             />
           </div>
         </div>
@@ -91,7 +95,8 @@ function CreateOrder() {
             id="priority"
           // value={withPriority}
           // onChange={(e) => setWithPriority(e.target.checked)}
-          />
+          className='h-6 w-6 accent-yellow-400
+          focus:outline-none focus:ring focus:ring-yellow-400 focus:ring-offset-2'/>
           <label htmlFor="priority">
             Want to yo give your order priority?
           </label>
