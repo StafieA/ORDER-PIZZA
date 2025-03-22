@@ -26,6 +26,15 @@ function Button({
        focus:outline-none focus:ring focus:ring-stone-500 
        focus:ring-offset-2 focus:bg-stone-300
        disabled:cursor-not-allowed px-4 py-2.5 md:px-6 md:py-3.5`,
+    delete:
+      `'inline-block text-sm rounded-full bg-red-700 
+        font-semibold uppercase tracking-wide
+      text-stone-900 transition-colors duration-300
+       hover:bg-red-300 
+       focus:outline-none focus:ring focus:ring-red-300 
+       focus:ring-offset-2 focus:bg-red-300
+       disabled:cursor-not-allowed '` +
+      'px-2 py-1.5 md:px-5 md:py-2.5 text-xs',
   };
   if (to)
     return (

@@ -8,8 +8,7 @@ function EmptyCart() {
       </LinkButton>
 
       <p className="mt-14 font-semibold">
-        Your cart is still empty. Start adding
-        some pizzas :)
+        Your cart is empty, add some pizzas 😋😋😋
       </p>
     </div>
   );
