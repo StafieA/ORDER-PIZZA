@@ -19,6 +19,9 @@ function Button({
     small:
       base +
       'px-2 py-1.5 md:px-5 md:py-2.5 text-xs',
+    round:
+      base +
+      'px-2.5 py-1 md:px-3.5 md:py-2 text-sm',
     secondary: `inline-block text-sm rounded-full border-2 border-stone-400 
         font-semibold uppercase tracking-wide
       text-stone-400 transition-colors duration-300
